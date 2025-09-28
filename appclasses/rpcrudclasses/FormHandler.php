@@ -4,33 +4,6 @@ namespace RpCrudClasses;
 // ### Updated:  Fri Sep 19 2025 11:34:14 CDT
 // Help file: http://localhost/app5/dashboard/index.php#../app/chatgpt_chats/markdown_files/binding_and_automating_php_queries/bind_pdo_queries_class_part2_php.php
 
-// $host = 'localhost';
-// $dbname = 'racepadd_notodb_bs5_2024able_light';
-// $username = 'root';
-// $password = '';
-
-// try{
-// $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8mb4";
-// $pdo = new PDO($dsn, $username, $password);
-
-
-//     // Set PDO attributes for error handling (optional but recommended)
-//     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-//     $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-
-//     //echo "Database connection successful!";
-
-//     // query to further confirm
-//     // $stmt = $pdo->query("SELECT 1");
-//     // if ($stmt) {
-//     //     echo " - Simple query executed successfully.";
-//     // }
-
-// } catch (PDOException $e) {
-//     echo "Database connection failed: " . $e->getMessage();
-//     // log the error for development
-// }
 
 class FormHandler
 {
@@ -257,5 +230,6 @@ class FormHandler
     */
 
     // ~~~~~~ END Select ~~~~~~~
+
 
 }
